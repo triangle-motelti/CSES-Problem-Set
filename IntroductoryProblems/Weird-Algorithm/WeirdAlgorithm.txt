@@ -1,29 +1,28 @@
-Time Limit: 1.00 seconds
+                                Time Limit: 1.00 seconds        Memory Limit: 512 MB
 
-Memory Limit: 512 MB
 Description:
 
 Consider an algorithm that processes a positive integer n as follows: if n is even, divide it by 2; if n is odd, multiply it by 3 and add 1.
 Repeat this process until n reaches 1. 
 
 For instance, starting with n=3 produces this sequence:
-
 3 → 10 → 5 → 16 → 8 → 4 → 2 → 1
+
 Your task is to simulate this algorithm for a provided n and output the entire sequence.
+
 Input:
-
 A single line with the integer n.
+
 Output:
-
 A single line containing all values in the sequence, separated by spaces.
-Constraints:
 
+Constraints:
 1 ≤ n ≤ 10^6
+
 Example:
 
 Input:
-
 3
-Output:
 
+Output:
 3 10 5 16 8 4 2 1
