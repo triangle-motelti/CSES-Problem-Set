@@ -1,0 +1,25 @@
+                            Time Limit: 1.00 seconds    Memory Limit: 512 MB
+Description:
+
+You are given an array of n integers. Your goal is to modify the array so that it is increasing, meaning each element is at least as large as the previous element. 
+In each move, you can increase any element's value by one. Find the minimum number of moves required.
+
+Input:
+The first input line contains an integer n: the size of the array.
+The second line contains n integers x_1, x_2, ..., x_n: the contents of the array.
+
+Output:
+Print the minimum number of moves.
+
+Constraints:
+* 1 ≤ n ≤ 2 ⋅ 10^5
+* 1 ≤ x_i ≤ 10^9
+
+Example:
+
+Input:
+5
+3 2 5 1 7
+
+Output:
+5
